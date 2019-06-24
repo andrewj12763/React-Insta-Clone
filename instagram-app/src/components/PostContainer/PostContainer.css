@@ -1,0 +1,43 @@
+.post {
+    width: 70%;
+    display: block;
+    margin: 4% auto;
+}
+
+.post__individual {
+     margin-top: 7%;
+     border: 1px solid gray;
+     border-radius: 10px;
+}
+.post__individual:first-of-type {
+    margin-top: 0;
+}
+.post__head {
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.post__thumbnail {
+    width: 2.5rem;
+    height: 100%;
+    border-radius: 1.5rem;
+    margin: 1% 2% 0% 5%;
+}
+
+.post__username {
+    align-self: center;
+    margin-left: 1%;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.post__image {
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.likes {
+    margin: 1% 0 0 5%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
